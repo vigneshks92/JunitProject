@@ -5,9 +5,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Tag;
 
 public class CalculatorTest {
 	
+	@Tag("Sanity")
 	@Test
 	public void addTest1() {
 		

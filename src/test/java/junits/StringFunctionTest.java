@@ -19,7 +19,7 @@ public class StringFunctionTest {
 		
 	}
 	
-	@CustomAnnotation
+	@Test
 	public void test2() {
 		
 		assertFalse(StringFunctions.isPalindrome("vignesh"));
